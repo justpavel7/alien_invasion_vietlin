@@ -18,7 +18,7 @@ class AlienInvasion:
         while True:
             # Отслеживание клавиш и мыши
             for event in pygame.event.get():
-                if event.type = pygame.QUIT:
+                if event.type == pygame.QUIT:
                     sys.exit()
             # Отображение последнего прорисованого экрана
             pygame.display.flip()
